@@ -1,0 +1,37 @@
+[{
+  "description": "search-users",
+  "request": {
+    "uri": "/api/users/search"
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "result": [
+        {
+          "id": 1,
+          "name": "Li Da HEHEH",
+          "age": "20",
+          "gender": "M"
+        },
+        {
+          "id": 2,
+          "name": "Li Er",
+          "age": "20",
+          "gender": "F"
+        },
+        {
+          "id": 3,
+          "name": "Li San",
+          "age": "20",
+          "gender": "F"
+        },
+        {
+          "id": 4,
+          "name": "Li Si",
+          "age": "20",
+          "gender": "M"
+        }
+      ]
+    }
+  }
+}]

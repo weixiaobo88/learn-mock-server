@@ -1,0 +1,26 @@
+#%RAML 0.8
+title: Users API
+version: v1
+baseUri: http://example.com/api/{version}
+
+/users:
+  get:
+    description: |
+      Get all users.
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              [
+                {
+                  "id": 1,
+                  "name": "zhang san",
+                  "gender": "male"
+                },
+                {
+                  "id": 2,
+                  "name": "zhang si",
+                  "gender": "female"
+                }
+              ]

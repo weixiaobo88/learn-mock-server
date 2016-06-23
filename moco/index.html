@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Using Moco & axios as HTTP client</title>
+  <script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+Hello
+</body>
+<script>
+  console.log('11111');
+axios.get('/api/users/search')
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (response) {
+    console.log('1111111');
+    console.log(response);
+  });
+</script>
+</html>

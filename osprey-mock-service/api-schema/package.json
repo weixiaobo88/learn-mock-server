@@ -1,0 +1,15 @@
+{
+	"name": "osprey-mock-service-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"mock": "osprey-mock-service -f api.raml -p 9999"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"osprey-mock-service": "^0.1.0"
+	}
+}
