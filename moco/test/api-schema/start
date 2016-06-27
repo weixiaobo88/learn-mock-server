@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd $(dirname $0)
+
+./generate.js
+
+./moco http -p 12306 -g api.json
+

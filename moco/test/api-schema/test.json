@@ -1,7 +1,7 @@
 [{
   "description": "search-users",
   "request": {
-    "uri": "/api/users/search"
+    "uri": "/api/v1/users/search"
   },
   "response": {
     "status": 200,
