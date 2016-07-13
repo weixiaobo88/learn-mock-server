@@ -27,9 +27,12 @@
 - osprey-mock-service + webpack
     
     * 提供 API 的本地服务器, osprey-mock-service, 配置文件是 api.raml
-    * 转发 HTTP 请求的代理, webpack, 配置文件是 webpack.config..js
+    * 转发 HTTP 请求的代理, webpack, 配置文件是 webpack.config.js
+    * 相比特点：json文件修改后需要重启
 
 - moco + webpack
 
     * 提供 API 的本地服务器, moco, 配置文件是 moco(shell) + start(shell) + api.json
-    * 转发 HTTP 请求的代理, webpack, 配置文件是 webpack.config..js
+    * 转发 HTTP 请求的代理, webpack, 配置文件是 webpack.config.js
+    * 相比特点：json文件修改后不需要重启
+    
